@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{62B50E1A-25EE-FC18-C916-5E4678E97E7F}") = "UnityLEDCube", "Assembly-CSharp.csproj", "{51C69AD4-3174-E65F-422D-ABBFD199106D}"
+EndProject
+Project("{62B50E1A-25EE-FC18-C916-5E4678E97E7F}") = "UnityLEDCube", "Assembly-CSharp-Editor.csproj", "{79D90529-849A-AFDB-6B46-19EF68C12541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C69AD4-3174-E65F-422D-ABBFD199106D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C69AD4-3174-E65F-422D-ABBFD199106D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C69AD4-3174-E65F-422D-ABBFD199106D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C69AD4-3174-E65F-422D-ABBFD199106D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D90529-849A-AFDB-6B46-19EF68C12541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D90529-849A-AFDB-6B46-19EF68C12541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D90529-849A-AFDB-6B46-19EF68C12541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D90529-849A-AFDB-6B46-19EF68C12541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
