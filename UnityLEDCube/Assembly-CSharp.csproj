@@ -45,6 +45,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Beat Detection\BeatDetection.cs" />
+     <Compile Include="Assets\Beat Detection\Event - Example Mic Input\EventMicExample.cs" />
+     <Compile Include="Assets\Beat Detection\Event - Example\EventExample.cs" />
+     <Compile Include="Assets\Beat Detection\No Event - Example Mic Input\BeatDetectionExampleMic.cs" />
+     <Compile Include="Assets\Beat Detection\No Event - Example\BeatDetectionExample.cs" />
      <Compile Include="Assets\Fountain\Scripts\AudioProcessor.cs" />
      <Compile Include="Assets\Fountain\Scripts\Example.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\AerodynamicLeaf.cs" />
@@ -174,6 +179,11 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+     <Compile Include="Assets\_Scripts\CameraController.cs" />
+     <Compile Include="Assets\_Scripts\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\ResetZone.cs" />
+     <Compile Include="Assets\_Scripts\Rotator.cs" />
+     <Compile Include="Assets\hitSound.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
@@ -206,6 +216,10 @@
  <Reference Include="LeapCSharp.NET3.5">
  <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7CFBBB1F-7480-156A-CE30-E20C09D869A8}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
