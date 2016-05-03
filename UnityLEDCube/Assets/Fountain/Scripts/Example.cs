@@ -22,19 +22,25 @@ using System;
  */
 public class Example : MonoBehaviour, AudioProcessor.AudioCallbacks
 {
-    
+	private bool big;
+
     void Start()
     {
         //Select the instance of AudioProcessor and pass a reference
         //to this object
         AudioProcessor processor = FindObjectOfType<AudioProcessor>();
         processor.addAudioCallback(this);
+		big = false;
     }
 
     
     void Update()
     {
-        
+		if (!big) {
+			transform.localScale = new Vector3 (1F, 2F, 1F);
+		} else {
+			big = false;
+		}
     }
 
     //this event will be called every time a beat is detected.
@@ -42,7 +48,9 @@ public class Example : MonoBehaviour, AudioProcessor.AudioCallbacks
     //to adjust the sensitivity
     public void onOnbeatDetected()
     {
-        Debug.Log("Beat!!!");
+		Debug.Log("Beat!!!");
+		big = true;
+		transform.localScale = new Vector3(1F, 5F, 1F);
     }
 
     //This event will be called every frame while music is playing
@@ -54,7 +62,7 @@ public class Example : MonoBehaviour, AudioProcessor.AudioCallbacks
         for (int i = 0; i < spectrum.Length; ++i)
         {
             Vector3 start = new Vector3(i, 0, 0);
-            Vector3 end = new Vector3(i, spectrum[i], 0);
+            Vector3 end = new Vector3(i, spectrum[i] * 10 , 0);
             Debug.DrawLine(start, end);
         }
     }
