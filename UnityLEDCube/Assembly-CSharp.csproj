@@ -180,6 +180,18 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+     <Compile Include="Assets\RhythmTool\Examples\Scripts\BasicController.cs" />
+     <Compile Include="Assets\RhythmTool\Examples\Scripts\ExampleController.cs" />
+     <Compile Include="Assets\RhythmTool\Examples\Scripts\ExampleControllerV2.cs" />
+     <Compile Include="Assets\RhythmTool\Examples\Scripts\Line.cs" />
+     <Compile Include="Assets\RhythmTool\Scripts\Analysis.cs" />
+     <Compile Include="Assets\RhythmTool\Scripts\Frame.cs" />
+     <Compile Include="Assets\RhythmTool\Scripts\LomontFFT.cs" />
+     <Compile Include="Assets\RhythmTool\Scripts\MPGImport.cs" />
+     <Compile Include="Assets\RhythmTool\Scripts\Mp3Importer.cs" />
+     <Compile Include="Assets\RhythmTool\Scripts\Range.cs" />
+     <Compile Include="Assets\RhythmTool\Scripts\RhythmTool.cs" />
+     <Compile Include="Assets\RhythmTool\Scripts\Util.cs" />
      <Compile Include="Assets\_Scripts\CameraController.cs" />
      <Compile Include="Assets\_Scripts\PlayerController.cs" />
      <Compile Include="Assets\_Scripts\ResetZone.cs" />
@@ -216,6 +228,9 @@
  </Reference>
  <Reference Include="LeapCSharp.NET3.5">
  <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows.Forms">
+ <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/System.Windows.Forms.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -121,6 +121,9 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="System.Windows.Forms">
+ <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/System.Windows.Forms.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

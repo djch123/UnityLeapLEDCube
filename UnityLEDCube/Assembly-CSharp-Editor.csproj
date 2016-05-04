@@ -53,6 +53,9 @@
      <Compile Include="Assets\LeapMotionVR\Scripts\ConfigurationManager\Editor\HMRConfigurationManagerEditor.cs" />
      <Compile Include="Assets\LeapMotionVR\Scripts\Editor\LeapCameraAlignmentEditor.cs" />
      <Compile Include="Assets\OVR\Moonlight\Editor\OVRMoonlightLoader.cs" />
+     <Compile Include="Assets\RhythmTool\Editor\AnalysisDrawer.cs" />
+     <Compile Include="Assets\RhythmTool\Editor\AnalysisListDrawer.cs" />
+     <Compile Include="Assets\RhythmTool\Editor\RhythmToolDrawer.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
@@ -108,6 +111,9 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows.Forms">
+ <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/System.Windows.Forms.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
