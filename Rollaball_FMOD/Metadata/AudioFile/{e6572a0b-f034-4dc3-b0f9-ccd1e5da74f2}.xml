@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{e6572a0b-f034-4dc3-b0f9-ccd1e5da74f2}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.9308843537414968</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/crows_multiple_caw_05 {bd2b0796-9f48-4a89-b3c0-cf4447f12f40}</value>
+        </property>
+        <relationship name="container">
+            <destination>{0b62196c-9388-4ca1-a7f2-5fb62b63a14e}</destination>
+        </relationship>
+    </object>
+</objects>

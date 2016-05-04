@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{fca14ce3-75b3-4de6-8d6d-9c6a57a6b501}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.55891156462585034</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/crow_cawing_single_03 {e115fb23-1753-42c2-afb9-f283c8ce49ce}</value>
+        </property>
+        <relationship name="container">
+            <destination>{0b62196c-9388-4ca1-a7f2-5fb62b63a14e}</destination>
+        </relationship>
+    </object>
+</objects>

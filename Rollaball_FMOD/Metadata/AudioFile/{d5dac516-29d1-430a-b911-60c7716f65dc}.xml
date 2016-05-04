@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{d5dac516-29d1-430a-b911-60c7716f65dc}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>7.333333333333333</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/twinkle_chase_stinger {ecce4229-da31-472c-94bb-0f53d55beb6d}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{33db4b74-36e7-4e73-81fb-f94b39549aae}</destination>
+        </relationship>
+    </object>
+</objects>

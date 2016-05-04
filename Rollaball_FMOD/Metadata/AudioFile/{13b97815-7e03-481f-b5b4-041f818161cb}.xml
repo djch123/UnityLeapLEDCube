@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{13b97815-7e03-481f-b5b4-041f818161cb}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.42904761904761907</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/nice_nav_09 {3cc4b83d-d722-4b1b-9963-7baf7fcbda53}</value>
+        </property>
+        <relationship name="container">
+            <destination>{61fe1390-1a33-4fba-b2b1-437ec69e6c87}</destination>
+        </relationship>
+    </object>
+</objects>

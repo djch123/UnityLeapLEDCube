@@ -50,6 +50,7 @@
      <Compile Include="Assets\Beat Detection\Event - Example\EventExample.cs" />
      <Compile Include="Assets\Beat Detection\No Event - Example Mic Input\BeatDetectionExampleMic.cs" />
      <Compile Include="Assets\Beat Detection\No Event - Example\BeatDetectionExample.cs" />
+     <Compile Include="Assets\Fountain\Scenes\EventFountain.cs" />
      <Compile Include="Assets\Fountain\Scripts\AudioProcessor.cs" />
      <Compile Include="Assets\Fountain\Scripts\Example.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\AerodynamicLeaf.cs" />

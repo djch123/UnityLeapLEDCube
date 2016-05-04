@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{7803f8fd-46ba-4995-b8ec-98f680497c41}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>3.4130839002267575</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/wind_gust_03 {05ae5d79-c7b2-4ebc-bc1f-03bf8a773a25}</value>
+        </property>
+        <relationship name="container">
+            <destination>{0b62196c-9388-4ca1-a7f2-5fb62b63a14e}</destination>
+        </relationship>
+    </object>
+</objects>

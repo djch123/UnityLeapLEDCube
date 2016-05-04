@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{0847aa26-59c3-4186-a49e-88dcaec48c04}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>5.6770068027210883</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/ball_rolling_loop_01 {a827e1b0-c197-4d26-8823-524f5f64e532}</value>
+        </property>
+        <relationship name="container">
+            <destination>{94ce3ce2-bb37-4897-838a-a4fe88fd0947}</destination>
+        </relationship>
+    </object>
+</objects>

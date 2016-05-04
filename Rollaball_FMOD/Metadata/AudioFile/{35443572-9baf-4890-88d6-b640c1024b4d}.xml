@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{35443572-9baf-4890-88d6-b640c1024b4d}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>60.348684807256234</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/forest_alpine_light_wind_01_60_loop {70d23ad1-c3f5-448c-96f1-642dbc997df9}</value>
+        </property>
+        <relationship name="container">
+            <destination>{0b62196c-9388-4ca1-a7f2-5fb62b63a14e}</destination>
+        </relationship>
+    </object>
+</objects>
