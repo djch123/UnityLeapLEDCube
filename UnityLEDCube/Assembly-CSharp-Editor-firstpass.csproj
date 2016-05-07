@@ -75,10 +75,12 @@
      <None Include="Assets\LeapMotion\readme.txt" />
      <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
      <None Include="Assets\LeapMotion\Resources\ImageHandHighlight.shader" />
+     <None Include="Assets\Fireworks\Scripts\Simple Particle Scale\Simple Particle Scale - Readme.txt" />
      <None Include="Assets\LeapMotion\Shaders\RimShading.shader" />
      <None Include="Assets\LeapMotion\Dependencies.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
+     <None Include="Assets\Fireworks\Fireworks - Readme.txt" />
      <None Include="Assets\LeapMotion\Resources\ThresholdOverlay.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
      <None Include="Assets\LeapMotion\Resources\PassthroughForeground.shader" />
@@ -115,14 +117,14 @@
  <Reference Include="LeapCSharp.NET3.5">
  <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
+ <Reference Include="System.Windows.Forms">
+ <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/System.Windows.Forms.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Windows.Forms">
- <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/System.Windows.Forms.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

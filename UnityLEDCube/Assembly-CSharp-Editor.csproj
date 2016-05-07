@@ -53,9 +53,6 @@
      <Compile Include="Assets\LeapMotionVR\Scripts\ConfigurationManager\Editor\HMRConfigurationManagerEditor.cs" />
      <Compile Include="Assets\LeapMotionVR\Scripts\Editor\LeapCameraAlignmentEditor.cs" />
      <Compile Include="Assets\OVR\Moonlight\Editor\OVRMoonlightLoader.cs" />
-     <Compile Include="Assets\RhythmTool\Editor\AnalysisDrawer.cs" />
-     <Compile Include="Assets\RhythmTool\Editor\AnalysisListDrawer.cs" />
-     <Compile Include="Assets\RhythmTool\Editor\RhythmToolDrawer.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
@@ -66,10 +63,12 @@
      <None Include="Assets\LeapMotion\readme.txt" />
      <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
      <None Include="Assets\LeapMotion\Resources\ImageHandHighlight.shader" />
+     <None Include="Assets\Fireworks\Scripts\Simple Particle Scale\Simple Particle Scale - Readme.txt" />
      <None Include="Assets\LeapMotion\Shaders\RimShading.shader" />
      <None Include="Assets\LeapMotion\Dependencies.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
+     <None Include="Assets\Fireworks\Fireworks - Readme.txt" />
      <None Include="Assets\LeapMotion\Resources\ThresholdOverlay.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
      <None Include="Assets\LeapMotion\Resources\PassthroughForeground.shader" />
@@ -79,6 +78,9 @@
      <None Include="Assets\LeapMotion\Widgets\Shaders\SelfIllumAlpha.shader" />
      <None Include="Assets\LeapMotion\Version.txt" />
      <None Include="Assets\Plugins\x86\donotdelete.txt" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
@@ -106,14 +108,14 @@
  <Reference Include="LeapCSharp.NET3.5">
  <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
+ <Reference Include="System.Windows.Forms">
+ <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/System.Windows.Forms.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Windows.Forms">
- <HintPath>/Users/Jessie/Documents/BYSJ/UnityLeapLEDCube/UnityLEDCube/Assets/Plugins/System.Windows.Forms.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

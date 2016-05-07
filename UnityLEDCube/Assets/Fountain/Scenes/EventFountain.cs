@@ -5,29 +5,30 @@ public class EventFountain : MonoBehaviour {
 
     public GameObject AudioBeat;
 
-	public ParticleSystem fountainkick;
-	public ParticleSystem fountainsnare;
-	public ParticleSystem fountainhithat;
-	public ParticleSystem fountainenergy;
+	public GameObject FountainEnergy;
+	public KicksManager FireworkKicks;
+	public FountainLineManager LineFountains;
 
     public void MyCallbackEventHandler(BeatDetection.EventInfo eventInfo)
     {
+		Component[] children;
         switch(eventInfo.messageInfo)
         {
 		case BeatDetection.EventType.Energy:
-			fountainenergy.Play ();
+			children = FountainEnergy.GetComponentsInChildren<ParticleSystem>();
+			foreach (ParticleSystem childParticleSystem in children){
+				childParticleSystem.Play ();
+			}
 //                StartCoroutine(showText(energy, genergy));
                 break;
 		case BeatDetection.EventType.HitHat:
-			fountainhithat.Play ();
 //                StartCoroutine(showText(hithat, ghithat));
                 break;
 		case BeatDetection.EventType.Kick:
-			fountainkick.Play ();
 //                StartCoroutine(showText(kick, gkick));
                 break;
 		case BeatDetection.EventType.Snare:
-			fountainsnare.Play ();
+			FireworkKicks.Play ();
 //                StartCoroutine(showText(snare, gsnare));
                 break;
         }
