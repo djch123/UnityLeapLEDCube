@@ -45,6 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AudioToolkit\AudioToolkit\AudioController.cs" />
+     <Compile Include="Assets\AudioToolkit\AudioToolkit\AudioFader.cs" />
+     <Compile Include="Assets\AudioToolkit\AudioToolkit\AudioItem.cs" />
+     <Compile Include="Assets\AudioToolkit\AudioToolkit\AudioLog.cs" />
+     <Compile Include="Assets\AudioToolkit\AudioToolkit\AudioObject.cs" />
+     <Compile Include="Assets\AudioToolkit\Demo\AudioToolkitDemo.cs" />
+     <Compile Include="Assets\AudioToolkit\ExampleBehaviours\PlayMusicOnStart.cs" />
+     <Compile Include="Assets\AudioToolkit\ExampleBehaviours\PlaySoundOnStart.cs" />
+     <Compile Include="Assets\AudioToolkit\Shared Auxiliary Code\ArrayHelper.cs" />
+     <Compile Include="Assets\AudioToolkit\Shared Auxiliary Code\FlashSupport.cs" />
+     <Compile Include="Assets\AudioToolkit\Shared Auxiliary Code\PoolableObject.cs" />
+     <Compile Include="Assets\AudioToolkit\Shared Auxiliary Code\RegisteredComponent.cs" />
+     <Compile Include="Assets\AudioToolkit\Shared Auxiliary Code\SystemTime.cs" />
+     <Compile Include="Assets\AudioToolkit\Shared Auxiliary Code\UnitySingleton.cs" />
      <Compile Include="Assets\Beat Detection\BeatDetection.cs" />
      <Compile Include="Assets\Beat Detection\Event - Example Mic Input\EventMicExample.cs" />
      <Compile Include="Assets\Beat Detection\Event - Example\EventExample.cs" />
@@ -52,10 +66,8 @@
      <Compile Include="Assets\Beat Detection\No Event - Example\BeatDetectionExample.cs" />
      <Compile Include="Assets\CircleFountainManager.cs" />
      <Compile Include="Assets\Fireworks\Scripts\SmoothCameraOrbit.cs" />
-     <Compile Include="Assets\Fountain\Scenes\EventFountain.cs" />
-     <Compile Include="Assets\Fountain\Scripts\AudioProcessor.cs" />
      <Compile Include="Assets\Fountain\Scripts\CameraMovement.cs" />
-     <Compile Include="Assets\Fountain\Scripts\Example.cs" />
+     <Compile Include="Assets\Fountain\Scripts\EventFountain.cs" />
      <Compile Include="Assets\FountainLineManager.cs" />
      <Compile Include="Assets\KicksManager.cs" />
      <Compile Include="Assets\LeapMotion\DemoResources\Scripts\AerodynamicLeaf.cs" />
@@ -190,6 +202,7 @@
      <Compile Include="Assets\_Scripts\ResetZone.cs" />
      <Compile Include="Assets\_Scripts\Rotator.cs" />
      <Compile Include="Assets\hitSound.cs" />
+     <None Include="Assets\AudioToolkit\Readme.txt" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />

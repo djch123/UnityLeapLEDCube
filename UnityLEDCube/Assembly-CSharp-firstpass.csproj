@@ -63,6 +63,7 @@
      <Compile Include="Assets\Plugins\FMOD\Wrapper\fmod_dsp.cs" />
      <Compile Include="Assets\Plugins\FMOD\Wrapper\fmod_errors.cs" />
      <Compile Include="Assets\Plugins\FMOD\Wrapper\fmod_studio.cs" />
+     <None Include="Assets\AudioToolkit\Readme.txt" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />

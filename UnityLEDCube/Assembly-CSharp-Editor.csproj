@@ -45,6 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioController_Editor.cs" />
+     <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioItemOverview.cs" />
+     <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioLogView.cs" />
+     <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioObject_Editor.cs" />
      <Compile Include="Assets\Editor\FMODMigrationUtil.cs" />
      <Compile Include="Assets\LeapMotion\Editor\AdvancedMode.cs" />
      <Compile Include="Assets\LeapMotion\Editor\HandControllerEditor.cs" />
@@ -53,6 +57,7 @@
      <Compile Include="Assets\LeapMotionVR\Scripts\ConfigurationManager\Editor\HMRConfigurationManagerEditor.cs" />
      <Compile Include="Assets\LeapMotionVR\Scripts\Editor\LeapCameraAlignmentEditor.cs" />
      <Compile Include="Assets\OVR\Moonlight\Editor\OVRMoonlightLoader.cs" />
+     <None Include="Assets\AudioToolkit\Readme.txt" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
